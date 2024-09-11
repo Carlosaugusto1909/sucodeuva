@@ -1,0 +1,58 @@
+/* RESET global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+body {
+  font-family: 'Albert Sans', Arial, Helvetica, sans-serif;
+  width: 1000px;
+  height: auto;
+  max-width: 1000px;
+  background-color: rgb(black);
+  margin: 0 auto;
+
+}
+
+#titulo {
+  width: 100%;
+  height: auto;
+  background-color: rgb(68, 25, 104);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titulo {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+
+}
+
+#conteudo {
+  width: 70% height: auto;
+  background-color: rgb(black);
+  padding: o 0px;
+  padding-top 50 px;
+  paddong: botton 30px;
+
+}
